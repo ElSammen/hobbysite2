@@ -8,6 +8,7 @@ h1 {
     text-align: center;
     background-color: #363739;
     color:rgba(212, 171, 10, 0.746);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 p {
@@ -22,6 +23,7 @@ p {
 
 .nav-item a {
     color:rgba(212, 171, 10, 0.746) !important;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .navbar-toggler {
@@ -30,10 +32,17 @@ p {
 
 .navbar-brand {
     color:rgba(212, 171, 10, 0.746) !important;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .nav-link {
-    color:rgba(212, 171, 10, 0.746) !important; 
+    color:rgba(212, 171, 10, 0.746) !important;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
+}
+
+.nav-link:hover {
+    color:rgba(255, 204, 0, 0.746) !important;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
 }
 
 .imageWrapper {
@@ -323,6 +332,8 @@ p {
     background-color:rgba(145, 141, 141, 0.57)
 }
 
-#canvas {
-    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+.survey {
+    color:rgba(212, 171, 10, 0.746);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
+
