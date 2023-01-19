@@ -40,16 +40,17 @@
         <label for="email">Enter Your Email: <input id="email" name="email" type="email" required /></label>
       </fieldset>
       <fieldset>
-        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" /> Personal Account</label>
-        <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" /> Business Account</label>
-        <label for="terms-and-conditions">
-          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" /> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a>
+        <p>Have you got any current hobbies?</p>
+        <label for="yeshobby"><input id="yeshobby" type="radio" name="yesnoh" class="inline" /> Yes</label>
+        <label for="nohobby"><input id="nohobby" type="radio" name="yesnoh" class="inline" /> No</label>
+        <label for="ifyes">If you selected yes, what are they? 
+        <textarea id="ifyes" name="ifyes" rows="3" cols="30" placeholder="If you selected no, leave me blank"></textarea>
         </label>
       </fieldset>
       <fieldset>
         <label for="age">Input your age (years): <input id="age" type="number" name="age" min="13" max="120" /></label>
-        <label for="referrer">What hobbies have you dropped?
-          <select id="referrer" name="referrer">
+        <label for="dossing">What hobbies have you dropped?
+          <select id="dossing" name="dossing">
             <option value="">(select one)</option>
             <option value="1">Music</option>
             <option value="2">Arts</option>
@@ -58,8 +59,8 @@
             <option value="5">Other</option>
           </select>
         </label>
-        <label for="bio">Any additional comments:
-          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="I'm perfect and have achieved everything I set out to do"></textarea>
+        <label for="comments">Any additional comments:
+          <textarea id="comments" name="comments" rows="3" cols="30" placeholder="I'm perfect and have achieved everything I set out to do"></textarea>
         </label>
       </fieldset>
       <input type="submit" value="Submit" />
