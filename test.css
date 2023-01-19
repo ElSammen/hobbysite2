@@ -1,125 +1,4 @@
-html body {
-    font-family: Trebuchet MS;
-    background-image: url(graveyard3.png); 
-}
-
-
-h1 {
-    text-align: center;
-    background-color: #363739;
-    color:rgba(212, 171, 10, 0.746);
-}
-
-p {
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-}
-
-.bg-body-tertiary {
-    background-color: #2f3033  !important;
-}
-
-.nav-item a {
-    color:rgba(212, 171, 10, 0.746) !important;
-}
-
-.navbar-toggler {
-    background-color: #fff !important;
-}
-
-.navbar-brand {
-    color:rgba(212, 171, 10, 0.746) !important;
-}
-
-.nav-link {
-    color:rgba(212, 171, 10, 0.746) !important; 
-}
-
-.imageWrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.card {
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-}
-
-
-  
-  h1, p {
-    margin: 1em auto;
-    text-align: center;
-  }
-  
-  form {
-    width: 60vw;
-    max-width: 500px;
-    min-width: 300px;
-    margin: 0 auto;
-    padding-bottom: 2em;
-  }
-  
-  fieldset {
-    border: none;
-    padding: 2rem 0;
-    border-bottom: 3px solid #3b3b4f;
-  }
-  
-  fieldset:last-of-type {
-    border-bottom: none;
-  }
-  
-  label {
-    display: block;
-    margin: 0.5rem 0;
-  }
-  
-  input,
-  textarea,
-  select {
-    margin: 10px 0 0 0;
-    width: 100%;
-    min-height: 2em;
-  }
-  
-  input, textarea {
-    background-color: #0a0a23;
-    border: 1px solid #0a0a23;
-    color: #ffffff;
-  }
-  
-  .survey {
-    padding-left: 1em;
-  }
-
-  .inline {
-    width: unset;
-    margin: 0 0.5em 0 0;
-    vertical-align: middle;
-  }
-  
-  input[type="submit"] {
-    display: block;
-    width: 60%;
-    margin: 1em auto;
-    height: 2em;
-    font-size: 1.1rem;
-    background-color: #3b3b4f;
-    border-color: white;
-    min-width: 300px;
-  }
-  
-  input[type="file"] {
-    padding: 1px 2px;
-  }
-  
-  .container-fluid {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-  }
-
-  input[type='checkbox'] {
+input[type='checkbox'] {
     display: none;
 }
 
@@ -136,7 +15,7 @@ p {
     text-align: center;
     padding: 1rem;
     color: #DDD;
-    background: #959ba3;
+    background: #0069ff;
     cursor: pointer;
     border-radius: 7px;
     transition: all 0.25s ease-out;
@@ -178,7 +57,7 @@ p {
 }
 
 .collapsible-content .content-inner {
-    background: rgba(254, 254, 254, 0.2);
+    background: rgba(0, 105, 255, .2);
     border-bottom: 1px solid rgba(0, 105, 255, .45);
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
@@ -213,7 +92,7 @@ p {
     text-align: center;
     padding: 1rem;
     color: #DDD;
-    background: #959ba3;
+    background: #0069ff;
     cursor: pointer;
     border-radius: 7px;
     transition: all 0.25s ease-out;
@@ -236,7 +115,7 @@ p {
 }
 
 .collapsible-content2 .content-inner2 {
-    background: rgba(254, 254, 254, 0.2);
+    background: rgba(0, 105, 255, .2);
     border-bottom: 1px solid rgba(0, 105, 255, .45);
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
@@ -270,7 +149,7 @@ p {
     text-align: center;
     padding: 1rem;
     color: #DDD;
-    background: #959ba3;
+    background: #0069ff;
     cursor: pointer;
     border-radius: 7px;
     transition: all 0.25s ease-out;
@@ -293,7 +172,7 @@ p {
 }
 
 .collapsible-content3 .content-inner3 {
-    background: rgba(254, 254, 254, 0.2);
+    background: rgba(0, 105, 255, .2);
     border-bottom: 1px solid rgba(0, 105, 255, .45);
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
@@ -319,6 +198,9 @@ p {
     border-bottom-left-radius: 0;
 }
 
-.btn-primary {
-    background-color:rgba(145, 141, 141, 0.57)
+#myCanvas {
+    align-content: center;
+    background-color: white;
+    display: block;
 }
+
