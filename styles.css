@@ -1,6 +1,8 @@
 html body {
     font-family: Trebuchet MS;
-    background-image: url(graveyard3.png); 
+    background-image: url(files/graveyard3.png); 
+    color:rgba(212, 171, 10, 0.746);
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 
@@ -9,6 +11,10 @@ h1 {
     background-color: #363739;
     color:rgba(212, 171, 10, 0.746);
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.card-text {
+color: rgba(212, 171, 10, 0.746);
 }
 
 p {
@@ -30,10 +36,6 @@ p {
     background-color: #fff !important;
 }
 
-.navbar-brand {
-    color:rgba(212, 171, 10, 0.746) !important;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-}
 
 .nav-link {
     color:rgba(212, 171, 10, 0.746) !important;
@@ -55,8 +57,13 @@ p {
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
-
-  
+.card-body {
+    background-color: #959ba3b8;  
+}
+ 
+.card-canvas {
+    background-color: white !important;
+}
   h1, p {
     margin: 1em auto;
     text-align: center;
@@ -206,6 +213,15 @@ p {
     max-height: 300px;
     float: left;
 }
+.image2 {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    min-height: 300px;
+    max-height: 300px;
+    float: right;
+}
+
 
 .dropdownContainer {
     display: flex;
@@ -329,7 +345,21 @@ p {
 }
 
 .btn-primary {
-    background-color:rgba(145, 141, 141, 0.57)
+    background-color:rgba(145, 141, 141, 0.57);
+    --bs-btn-color: #fff;
+    --bs-btn-bg: rgba(145, 141, 141, 0.57);
+    --bs-btn-border-color: rgba(145, 141, 141, 0.57);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: rgba(145, 141, 141, 0.681);
+    --bs-btn-hover-border-color: rgba(145, 141, 141, 0.57);
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #959ba3;
+    --bs-btn-active-bg: #959ba3;
+    --bs-btn-active-border-color: #959ba3;
+    --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: rgba(145, 141, 141, 0.57);
+    --bs-btn-disabled-border-color: rgba(145, 141, 141, 0.57);
 }
 
 .survey {
@@ -337,3 +367,15 @@ p {
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+.duowl {
+    max-width: 100%;
+    height: auto;
+}
+
+.row {
+    background: rgba(254, 254, 254, 0.2);
+}
+
+.col3 {
+    padding-top: 5%;
+}
