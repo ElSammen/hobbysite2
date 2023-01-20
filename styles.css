@@ -1,7 +1,7 @@
 html body {
     font-family: Trebuchet MS;
     background-image: url(files/graveyard3.png); 
-    color:rgba(212, 171, 10, 0.746);
+    color:rgba(255, 204, 0, 0.746);
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
@@ -9,12 +9,12 @@ html body {
 h1 {
     text-align: center;
     background-color: #363739;
-    color:rgba(212, 171, 10, 0.746);
+    color:rgba(255, 204, 0, 0.746);
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .card-text {
-color: rgba(236, 191, 11, 0.746);
+color:rgba(255, 204, 0, 0.746);
 }
 
 .row {
@@ -159,7 +159,7 @@ p {
     text-transform: uppercase;
     text-align: center;
     padding: 1rem;
-    color:rgba(212, 171, 10, 0.746) !important;
+    color:rgba(255, 204, 0, 0.746) !important;
     cursor: pointer;
     border-radius: 7px;
     transition: all 0.25s ease-out;
@@ -243,7 +243,7 @@ min-height: 300px;}
     text-transform: uppercase;
     text-align: center;
     padding: 1rem;
-    color:rgba(212, 171, 10, 0.746) !important;
+    color:rgba(255, 204, 0, 0.746) !important;
     cursor: pointer;
     border-radius: 7px;
     transition: all 0.25s ease-out;
@@ -299,7 +299,7 @@ min-height: 300px;}
     text-transform: uppercase;
     text-align: center;
     padding: 1rem;
-    color:rgba(212, 171, 10, 0.746) !important;
+    color:rgba(255, 204, 0, 0.746) !important;
     cursor: pointer;
     border-radius: 7px;
     transition: all 0.25s ease-out;
@@ -348,9 +348,9 @@ min-height: 300px;}
     border-bottom-left-radius: 0;
 }
 
-.btn-primary {
+.btn-primary, .submit {
     background-color:rgba(92, 87, 87, 0.666);
-    color:rgba(212, 171, 10, 0.746);
+    color:rgba(255, 204, 0, 0.746);
     --bs-btn-bg: rgba(145, 141, 141, 0.57);
     --bs-btn-border-color: rgba(145, 141, 141, 0.57);
     --bs-btn-hover-color:rgba(255, 204, 0, 0.746);
@@ -368,7 +368,7 @@ min-height: 300px;}
 }
 
 .survey {
-    color:rgba(212, 171, 10, 0.746);
+    color:rgba(255, 204, 0, 0.746);
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
